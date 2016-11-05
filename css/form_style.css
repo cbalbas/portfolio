@@ -1,0 +1,46 @@
+/*
+Create Simple Contact Form Using JavaScript
+
+www.formget.com/javascript-contact-form/
+Fugo of FormGet
+*/
+
+
+input {
+	font-family: "Quicksand", sans-serif;
+
+}
+
+div #form_sample {
+	text-align: center;
+	width: 330px;
+	float: left
+}
+
+label{ float:left; }
+
+input[type="text"] {
+	font-family: "Quicksand", sans-serif;
+	width: 100%;
+	margin-top: 10px;
+	height: 15px;
+	margin-bottom: 15px;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	height: 100px;
+	resize: none
+}
+
+input[type="submit"] {
+	font-family: "Quicksand", sans-serif;
+	width: 100%;
+	padding: 10px 45px;
+	color: #de9000;
+	font-size: 18px;
+} 
+

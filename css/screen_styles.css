@@ -1,0 +1,97 @@
+/* 
+The Ultimate Responsive Web Design Tutorial for Beginners - Chris Converse
+
+https://www.youtube.com/watch?v=YBK_1WrM294
+Coursesa
+April 3, 2015
+*/
+
+
+header h1{
+	text-align:center;
+	color: #fff;
+	font-family: "Quicksand", sans-serif;
+	font-weight: normal;
+	font-size: 4em; 
+	margin: 0em 0 1em 0;
+	padding: 100px;
+}
+
+body {
+	color: #282828;
+	line-height: 1.5em;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+}
+
+.page {
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: #fff;
+}
+
+h1, h2, h3 { 
+	font-family: "Quicksand", sans-serif; 
+	text-transform: uppercase; 
+	font-weight: normal;
+}
+
+h2 { font-size: 1.7em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+p { margin: 0 0 .75em 0; font-family: "Quicksand", sans-serif; }
+a { color: #de9000; }
+a:hover { color: #009eff; }
+
+/* CTA = call to action links */
+a.cta {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 0 0;
+}
+
+.project h3 { font-size: 1.2em; margin: 0; }
+.project p { line-height: 1.3em; font-size: 1em; margin-bottom: .5em; padding-top: 1em;}
+
+.project { 
+	background-repeat: no-repeat;
+}
+
+.project.one { background-image: url(../img/project1.jpg); }
+.project.two { background-image: url(../img/project2.jpg); }
+.project.three { background-image: url(../img/project3.jpg); }
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+nav a:hover {color: #fff;}
+
+.clear-fix { clear:both; line-height: 1px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

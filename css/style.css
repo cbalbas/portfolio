@@ -1,0 +1,54 @@
+header {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+  	font-weight: 400;
+  	line-height: 60px;
+}
+
+div p {
+	font-family:"Open Sans", sans-serif;
+}
+
+img {
+   
+   max-height: 50%;
+   max-width: 50%;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/* background-color: #333; */
+}
+
+li {
+	float: right;
+}
+
+li a{
+	display: block;
+	color: #3d3d3d;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+	color:red;
+	/*background-color: #9b9b9b;*/
+}
+
+
+
+

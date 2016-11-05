@@ -1,0 +1,61 @@
+/* 
+The Ultimate Responsive Web Design Tutorial for Beginners - Chris Converse
+
+https://www.youtube.com/watch?v=YBK_1WrM294
+Coursesa
+April 3, 2015
+*/
+
+
+
+/* Layout (global rules for all sizes) */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Layout Large Screens (default for older browsers) */
+header {
+	height: 275px;
+	background: url(../img/img-large.jpg) no-repeat right 0px;
+}
+
+
+article { padding: 30px 10px 10px 10px; }
+
+
+.project_container { padding: 0px 0px 15px 20px; }
+.project_container .project {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+}
+
+.project_container .project .content { padding: 320px 30px 0px 0px; }
+
+nav { top: 232px; }
+nav a { margin: 12px 0px 10px 20px;}
+
+
+/* When the browser is reduced to 990px, the contact is moved 15px to the left */
+@media screen and (max-width:990px) {
+	.contact { padding-left: 15px; }
+}
+
+
+
+
+
+
+
+
+
