@@ -45,5 +45,6 @@ input[type="submit"] {
 	padding-bottom:20px;
 } 
 
+.clear-fix { clear:both; line-height: 1px;} 
 
 
