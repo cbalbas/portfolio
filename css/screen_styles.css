@@ -13,9 +13,19 @@ header h1{
 	font-family: "Quicksand", sans-serif;
 	font-weight: normal;
 	font-size: 4em; 
-	margin: 0em 0 1em 0;
-	padding: 100px;
+	margin: 0em 0 0.7em 0;
+	padding: 90px 110px 0px 110px;
+
 }
+
+header h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 2em; 
+	padding: 0px 0px 100px 0px;
+}
+
+
 
 body {
 	color: #282828;
@@ -31,11 +41,16 @@ body {
 	background-color: #fff;
 }
 
-h1, h2, h3 { 
+h1, h2, h3, h4 { 
 	font-family: "Quicksand", sans-serif; 
 	text-transform: uppercase; 
 	font-weight: normal;
 }
+
+h2 {
+	font-color: #0affff;
+}
+
 
 h2 { font-size: 1.7em; margin: 0 0 1em 0; }
 h3 { font-size: 1.5em; margin: 0 0 1em 0; }
@@ -63,10 +78,13 @@ a.cta {
 .project.two { background-image: url(../img/project2.jpg); }
 .project.three { background-image: url(../img/project3.jpg); }
 
+
+
 nav a {
 	color: #000;
 	text-transform: uppercase;
 	text-decoration: none;
+	align: center;
 	display: inline-block;
 	font-weight: bold;
 	font-size: .9em;
@@ -75,22 +93,6 @@ nav a {
 nav a:hover {color: #fff;}
 
 .clear-fix { clear:both; line-height: 1px;} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
